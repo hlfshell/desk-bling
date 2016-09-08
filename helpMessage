@@ -1,0 +1,21 @@
+DESK BLINGOTRON 3000 commands
+
+triggerword command arg1 arg2 arg3
+
+off - turn me off :-(
+
+color R G B - solid color in rgb, ie RGB 255 0 0 is red
+
+fade R G B [t] - fade to this color with a delay/change of [t], which is optional (default is 20)
+
+pulse R1 G1 B1 R2 G2 B2 [t] - pulse between two colors with delay/change of [t], which is optional (default is 20)
+
+angry - You wouldn't like my when I'm angry
+
+calm - chill man
+
+partytime - rainbow o'clock
+
+seizure - RAVE TIME
+
+help - this message - though you probably knew that already since you got this message
