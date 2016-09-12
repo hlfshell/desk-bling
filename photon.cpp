@@ -129,20 +129,22 @@ int partyMode(String input){
 int blinkLights(String input){
     blinked++;
 
-    int oldR, oldG, oldB;
+    int oldR = currentRed;
+    int oldG = currentGreen;
+    int oldB = currentBlue;
     
     setCurrent(0, 0, 0);
     outputColor();
-    delay(250);
+    delay(100);
     setCurrent(255, 0, 0);
     outputColor();
-    delay(250);
+    delay(100);
     setCurrent(0, 255, 0);
     outputColor();
-    delay(250);
+    delay(100);
     setCurrent(0, 0, 255);
     outputColor();
-    delay(250);
+    delay(100);
     setCurrent(0, 0, 0);
     outputColor();
     delay(50);
