@@ -10,7 +10,7 @@ fade R G B [t] - fade to this color with a delay/change of [t], which is optiona
 
 pulse R1 G1 B1 R2 G2 B2 [t] - pulse between two colors with delay/change of [t], which is optional (default is 20)
 
-angry - You wouldn't like my when I'm angry
+angry - You wouldn't like me when I'm angry
 
 calm - chill man
 
